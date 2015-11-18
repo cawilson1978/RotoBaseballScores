@@ -1,0 +1,76 @@
+#
+# generated on 2015/05/06 05:13:29
+#
+# --table-start--
+dataClass=com.secondavestudios.rotobaseballscores.model.Team
+tableName=team
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+unique=true
+# --field-end--
+# --field-start--
+fieldName=players
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.secondavestudios.rotobaseballscores.model.Player
+tableName=player
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=lastName
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=hits
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=rbi
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=hr
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=avg
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=location
+# --field-end--
+# --field-start--
+fieldName=realTeam
+# --field-end--
+# --field-start--
+fieldName=remoteId
+canBeNull=false
+# --field-end--
+# --field-start--
+fieldName=score
+# --field-end--
+# --field-start--
+fieldName=team
+foreign=true
+foreignAutoRefresh=true
+maxForeignAutoRefreshLevel=2
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

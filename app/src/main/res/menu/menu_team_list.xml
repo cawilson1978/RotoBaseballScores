@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".TeamListActivity">
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"-->
+        <!--android:orderInCategory="100" android:showAsAction="never" />-->
+    <item android:id="@+id/action_edit_teams" android:title="Edit Teams" android:icon="@drawable/ic_action_edit" android:orderInCategory="10" android:showAsAction="always"/>
+    <item android:id="@+id/action_player_ranking" android:title="Rank Players" android:icon="@drawable/ic_action_view_as_list" android:orderInCategory="20" android:showAsAction="always"/>
+    <item android:id="@+id/action_update_all_players" android:title="Update All Players" android:icon="@drawable/ic_action_refresh" android:orderInCategory="75" android:showAsAction="always"/>
+</menu>
